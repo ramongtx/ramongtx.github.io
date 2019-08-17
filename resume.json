@@ -1,0 +1,228 @@
+{
+  "name": "Ramon Maciel",
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+  "info": {
+    "label": "Software Engineer",
+    "brief": "I am a hands-on software engineer, passionate about code quality, design and innovation. I am known to be a proactive learner, with great planning and negotiation skills and the capability of successfully handling multiple tasks simultaneously",
+    "image": "public/img/avatar.jpg"
+  },
+  "contact": {
+    "website": "http://cmaciel.com",
+    "phone": "+55 71 99919 9330",
+    "email": "ramoncmaciel@gmail.com",
+    "other": []
+  },
+  "location": {
+    "address": "",
+    "city": "Campinas",
+    "region": "São Paulo",
+    "code": "",
+    "country": "BR"
+  },
+  "social": [
+    {
+      "label": "",
+      "network": "GitHub",
+      "user": "ramongtx",
+      "url": "https://github.com/ramongtx"
+    },
+    {
+      "label": "",
+      "network": "Linkedin",
+      "user": "Ramon",
+      "url": "https://www.linkedin.com/pub/ramon-carvalho-maciel/7a/bb8/b3a"
+    }
+  ],
+  "employment": {
+    "summary": "",
+    "history": [
+      {
+        "employer": "I.Systems",
+        "url": "http://www.i.systems.com.br/en/",
+        "position": "Tech Lead",
+        "summary": "Technical leadership of systems for advanced process control and business intelligence for industries, involving both desktop and cloud applications. Development in Go and TypeScript and deployment in AWS",
+        "start": "2018-07",
+        "keywords": ["Go", "TypeScript", "ReactJS", "Angular", "Full-Stack", "AWS"],
+        "highlights": [
+          "Developing an industry-focused business intelligence software from conception to delivery, using Go, React, AngularJS, InfluxDB, PostgreSQL and GRPC",
+          "Responsible for the introduction of DevOps culture and tools to the web development team, setting up the AWS environment, CircleCI and Heroku",
+          "Leadership of the back-end development team and tech leadership of web projects"
+        ]
+      },
+      {
+        "employer": "HE:Labs",
+        "url": "https://helabs.com/us/",
+        "position": "Web Developer",
+        "summary": "Work as web developer and project manager focused at delivering full production-ready systems developed from begining to end using Ruby on Rails, ElasticSearch, MongoDB and PostgreSQL",
+        "start": "2017-07",
+        "end": "2018-07",
+        "keywords": ["Ruby on Rails", "iOS", "Scrum", "Full-Stack", "Heroku"],
+        "highlights": [
+          "Built large education ERP for the largest private educational company in the world",
+          "Fully remote work with multiple teams of developers, designers and managers around the world",
+          "Responsibility over estimations, deliveries and direct contact with clients and stakeholders"
+        ]
+      },
+      {
+        "employer": "CoffeeBean Tech",
+        "url": "https://site.coffeebeantech.com",
+        "position": "Software Engineer",
+        "summary": "Engaged on developing REST APIs, business intelligence tools, Social Marketing engines and iOS applications for the Social-ID Marketing Platform. Coding mostly in Ruby (Rails), JavaScript (AngularJS) and Objective-C (iOS)",
+        "start": "2015-07",
+        "end": "2017-07",
+        "keywords": ["Ruby on Rails", "Swift", "Objective-C", "JavaScript", "AWS"],
+        "highlights": [
+          "Responsible for maintaining a large iOS SDK and several apps, both in Swift and Objective-C",
+          "Occasionally worked as Sales Engineer, being responsible for a successful partnership with IBM",
+          "Worked with a cross-cultural/international team of engineers over a large monolithic Ruby on Rails application"
+        ]
+      },
+      {
+        "employer": "Chefia",
+        "url": "https://www.linkedin.com/company/9177292",
+        "position": "Co-founder and Developer",
+        "summary": "We have created Chefia, a set of tools to improve restaurants' costumer service and overall clients' experience through a complete overall of how orders are dealt with, using Ruby, Swift, Objective-C and Swift",
+        "start": "2014-06",
+        "end": "2015-07",
+        "keywords": ["Ruby on Rails", "Swift", "Objective-C", "MarionetteJS"],
+        "highlights": [
+          "Created cross-platform app from the ground up, with native versions for iOS and Android",
+          "Company investment earned as a prize from Apple Developer Academy",
+          "Startup ended up unsuccessful for commercial reasons"
+        ]
+      }
+    ]
+  },
+  "projects": [
+    {
+      "title": "Liris",
+      "category": "Private",
+      "url": "http://liris.systems.com.br",
+      "media": [],
+      "role": "Tech Lead",
+      "summary": "Real-time data visualization tool",
+      "description": "Business intelligence tool for industrial process visualization with added Artificial Intelligence algorithms. Development of multiple subsystems/microservices in Go and TypeScript",
+      "highlights": [
+        "Large project dealing with sensitive data over protected networks deployed securely to AWS",
+        "Developed multiple APIs - REST, GraphQL and GRPC"
+      ],
+      "keywords": ["ReactJS", "Go", "InfluxDB"]
+    },
+    {
+      "title": "Sistema Blox",
+      "category": "Private",
+      "url": "http://sistemablox.com.br",
+      "repo": "",
+      "media": [],
+      "role": "Web Developer",
+      "summary": "Education ERP",
+      "description": "A full web-based ERP for managing schools under a new and innovative educational system. Developed in Ruby on Rails and React",
+      "highlights": [
+        "Responsible for software architecture and database management",
+        "Responsible for developing, documenting and testing the GraphQL API"
+      ],
+      "keywords": ["Rails", "React", "GraphQL", "Redux", "PostgreSQL"]
+    },
+    {
+      "title": "Social-ID for IBM UBX",
+      "category": "Private",
+      "url": "https://www.ibm.com/us-en/marketplace/social-id-for-customer-identity",
+      "repo": "",
+      "media": [],
+      "role": "Web Developer",
+      "summary": "Social Login for IBM Products",
+      "description": "A set of plugins and APIs to allow easy communication between Social-ID social platform and IBM cloud solutions. Development in Java and Ruby",
+      "highlights": [
+        "Responsible for software architecture and development with direct aid from senior IBM engineers",
+        "Awarded with an opportunity to present solution at IBM Amplify 2017"
+      ],
+      "keywords": ["Java", "REST API", "Ruby"]
+    }
+  ],
+  "education": {
+    "summary": "",
+    "level": "degree",
+    "degree": "BEng",
+    "history": [
+      {
+        "institution": "University of Campinas",
+        "title": "Computer Engineering",
+        "url": "https://www.unicamp.br/unicamp/",
+        "start": "2009-01",
+        "end": "2015-01",
+        "summary": "Graduate of University of Campinas, with participation in exchange programs in France (ENSIIE) and in Australia (ANU)",
+        "curriculum": ["Data Algorithms", "Optimization", "Software Engineering", "C", "C++", "Compilers", "HTTP", "TCP/IP"]
+      },
+      {
+        "institution": "Instituto Eldorado",
+        "title": "Apple Developer Academy",
+        "url": "http://www.bepid.com.br/campinas/",
+        "start": "2013-06",
+        "end": "2014-07",
+        "summary": "Completed Apple-run course on iOS development, first of its type in Brazil",
+        "curriculum": ["Swift", "Objective-C"]
+      }
+    ]
+  },
+  "skills": {
+    "sets": [
+      {
+        "name": "Tools",
+        "level": "advanced",
+        "skills": ["Git", "DevOps", "SQL", "NoSQL"]
+      },
+      {
+        "name": "Back-End",
+        "level": "advanced",
+        "skills": ["Ruby on Rails", "TypeScript", "NodeJS", "Golang", "Java"]
+      },
+      {
+        "name": "Front-End",
+        "level": "intermediate",
+        "skills": ["AngularJS", "ReactJS", "MarionetteJS"]
+      },
+      {
+        "name": "Mobile",
+        "level": "intermediate",
+        "skills": ["Swift", "Objective-C", "C#", "Android"]
+      }
+    ]
+  },
+  "recognition": [
+    {
+      "flavor": "award",
+      "from": "Brazilian Physics Olympiad",
+      "title": "Silver Medal",
+      "event": "Sophomore",
+      "url": "http://www.sbf1.sbfisica.org.br/olimpiadas/obf2006/resultadofinal_1serie.htm",
+      "date": "2006",
+      "summary": ""
+    },
+    {
+      "flavor": "award",
+      "from": "Brazilian Mathematics Olympiad of Public Schools",
+      "title": "Gold Medal",
+      "event": "Senior",
+      "url": "http://premiacao.obmep.org.br/2008/verRelatorioPremiadosOuro.do.htm",
+      "date": "2008",
+      "summary": ""
+    }
+  ],
+  "languages": [
+    {
+      "language": "Portuguese",
+      "level": "native"
+    },
+    {
+      "language": "English",
+      "level": "advanced"
+    },
+    {
+      "language": "French",
+      "level": "intermediate"
+    }
+  ]
+}
