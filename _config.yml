@@ -47,14 +47,22 @@ social_media:
   # youtube: your_username
 
 topics:
+  - name: Ruby
+    web_url: https://www.ruby-lang.org/en/
+    image_url: assets/img/ruby.png
+
+  - name: Go
+    web_url: https://golang.org
+    image_url: assets/img/golang.png
+
   - name: GraphQL
     web_url: https://graphql.org/learn/
-    image_url: https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/2000px-GraphQL_Logo.svg.png
+    image_url: assets/img/graphql.png
 
   - name: ReactJS
-    web_url: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png
-    image_url: https://cdn.auth0.com/blog/react-js/react.png
+    web_url: https://icon-library.net/images/react-icon/react-icon-13.jpg
+    image_url: assets/img/react.png
 
   - name: AWS
     web_url: https://aws.amazon.com
-    image_url: https://icon-library.net/images/free-amazon-icon/free-amazon-icon-4.jpg
+    image_url: assets/img/aws.png

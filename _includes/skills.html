@@ -1,0 +1,33 @@
+<div class="box mb-5">
+    <h2 {% if site.style == 'dark' %}class="text-white" {% endif %}>// Skills</h2>
+    <div class="skills">
+        {% for skill_set in site.data.resume.skills.sets %}
+        {% assign percentage = 0.25 %}
+        {% if skill_set.level == "expert" %}
+        {% assign percentage = 1 %}
+        {% endif %}
+        {% if skill_set.level == "advanced" %}
+        {% assign percentage = 0.75 %}
+        {% endif %}
+        {% if skill_set.level == "proficient" %}
+        {% assign percentage = 0.50 %}
+        {% endif %}
+        <div class="item-skills" data-percent="{{ percentage }}">
+            {{ skill_set.name }}
+            <span class="skill-list-items">
+                ({{ skill_set.skills | join: " • "}})
+            </span>
+        </div>
+        {% endfor %}
+        <div class="skills-legend clearfix">
+            <div class="legend-left legend">Basic</div>
+            <div class="legend-left legend">
+                <span>Proficient</span>
+            </div>
+            <div class="legend-right legend">
+                <span>Advanced</span>
+            </div>
+            <div class="legend-right legend">Expert</div>
+        </div>
+    </div>
+</div>

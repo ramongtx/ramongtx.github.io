@@ -188,23 +188,28 @@
   "skills": {
     "sets": [
       {
-        "name": "Tools",
-        "level": "advanced",
-        "skills": ["Git", "DevOps", "SQL", "NoSQL"]
-      },
-      {
         "name": "Back-End",
-        "level": "advanced",
+        "level": "expert",
         "skills": ["Ruby on Rails", "TypeScript", "NodeJS", "Golang", "Java"]
       },
       {
+        "name": "Tools",
+        "level": "expert",
+        "skills": ["Git", "DevOps", "SQL", "NoSQL"]
+      },
+      {
         "name": "Front-End",
-        "level": "intermediate",
-        "skills": ["AngularJS", "ReactJS", "MarionetteJS"]
+        "level": "advanced",
+        "skills": ["ReactJS", "AngularJS", "JQuery"]
+      },
+      {
+        "name": "Soft Skills",
+        "level": "advanced",
+        "skills": ["Scrum", "Kanban", "Management", "Negociation"]
       },
       {
         "name": "Mobile",
-        "level": "intermediate",
+        "level": "advanced",
         "skills": ["Swift", "Objective-C", "C#", "Android"]
       }
     ]
