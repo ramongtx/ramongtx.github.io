@@ -1,17 +1,29 @@
 @import url(https://fonts.googleapis.com/css?family=Fira+Sans);
 
 body {
-    font-family: 'Fira Sans';
+  font-family: "Fira Sans";
 }
 
 .justified {
-    text-align: justify;
+  text-align: justify;
 }
 
 .italic {
-    font-style: italic;
+  font-style: italic;
 }
 
 .text-black {
-    color: #24292e;
+  color: #24292e;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+@media print
+{    
+    .no-print, .no-print *
+    {
+        display: none !important;
+    }
 }

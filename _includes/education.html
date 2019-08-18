@@ -1,0 +1,9 @@
+<h2 {% if site.style == 'dark' %}class="text-white" {% endif %}>// Education</h2>
+<div class="d-flex flex-wrap gutter-condensed mb-4">
+    {% for education in site.data.resume.education.history %}
+    <div class="education">
+        {% include education-card.html %}
+    </div>
+    {% endfor %}
+    <div></div>
+</div>

@@ -1,27 +1,26 @@
 <div class="github-component position-relative height-full rounded-1 {% if site.style == 'dark' %}bg-white{% endif %} p-3">
     <div class="d-flex flex-wrap gutter-condensed mb-1">
         <div class="col-12 col-md-12 col-lg-6 col-xl-4 mb-3">
-            {% if job.url %}
-            <a href="{{ job.url }}">
-                <p class="f3 lh-condensed text-black mb-0 mt-1 text-bold">{{ job.employer }}</p>
+            {% if education.url %}
+            <a href="{{ education.url }}">
+                <p class="f3 lh-condensed text-black mb-0 mt-1 text-bold">{{ education.institution }}</p>
             </a>
             {% else %}
-            <p class="f3 lh-condensed text-black mb-0 mt-1 text-bold">{{ job.employer }}</p>
+            <p class="f3 lh-condensed text-black mb-0 mt-1 text-bold">{{ education.institution }}</p>
             {% endif %}
             <p class="f5 lh-condensed text-gray mb-0 mt-1 italic">
-                {% if job.start %}
-                {{ job.start }}
+                {% if education.start %}
+                {{ education.start }}
                 {% endif %}
-                {% if job.end %}
-                - {{ job.end }}
+                {% if education.end %}
+                - {{ education.end }}
                 {% else %}
                 - current
                 {% endif %}
             </p>
         </div>
         <div class="col-12 col-md-12 col-lg-6 col-xl-8 mb-3">
-            <p class="f3 lh-condensed text-black mb-0 mt-1 italic">{{ job.position }}</p>
-            <p class="f5 text-gray mb-0 mt-1">{{ job.summary }}</p>
+            <p class="f5 text-gray mb-0 mt-1">{{ education.summary }}</p>
         </div>
     </div>
 </div>

@@ -157,13 +157,31 @@
         "curriculum": ["Data Algorithms", "Optimization", "Software Engineering", "C", "C++", "Compilers", "HTTP", "TCP/IP"]
       },
       {
-        "institution": "Instituto Eldorado",
+        "institution": "Apple and Instituto Eldorado",
         "title": "Apple Developer Academy",
         "url": "http://www.bepid.com.br/campinas/",
         "start": "2013-06",
         "end": "2014-07",
-        "summary": "Completed Apple-run course on iOS development, first of its type in Brazil",
+        "summary": "Completed Apple-run course on iOS development, first of its type in Brazil. Course counted with classes on programming, design and business",
         "curriculum": ["Swift", "Objective-C"]
+      },
+      {
+        "institution": "ENSIIE",
+        "title": "Computer Engineering",
+        "url": "https://www.ensiie.fr/",
+        "start": "2011-06",
+        "end": "2012-06",
+        "summary": "12 months as a Masters student at ENSIIE with full scholarship. Studies focused in the fields of artificial intelligence and virtual reality",
+        "curriculum": ["Virtual Reality", "Artificial Intelligence", "Machine Learning", "Middleware"]
+      },
+      {
+        "institution": "ANU - Australian National University",
+        "title": "Computer Engineering",
+        "url": "https://anu.edu.au/",
+        "start": "2012-06",
+        "end": "2013-06",
+        "summary": "12 months as a Masters student at ANU with full scholarship. Studies focused on project management and software engineering",
+        "curriculum": ["Projecty Management", "Optimization", "Software Engineering", "Java"]
       }
     ]
   },
