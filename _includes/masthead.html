@@ -36,7 +36,7 @@
     {% endif %}
     {% if site.social_media %}
       {% for account in site.social_media %}
-        <div class="{{ metadata_styles }}">
+        <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% else %}text-black{% endif %}">
           {% assign service_shortname = account[0] %}
           {% assign service = site.data.social_media[service_shortname] %}
           {{ service.icon_svg }}
