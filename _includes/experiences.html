@@ -1,0 +1,8 @@
+<h2 {% if site.style == 'dark' %}class="text-white" {% endif %}>// Professional Experiences</h2>
+<div class="d-flex flex-wrap gutter-condensed mb-4">
+    {% for job in site.data.resume.employment.history %}
+    <div class="job">
+        {% include job-card.html %}
+    </div>
+    {% endfor %}
+</div>
