@@ -21,6 +21,10 @@
   </div>
 
   <div class="my-6">
+    {% include languages.html %}
+  </div>
+
+  <div class="my-6">
     {% include experiences.html %}
   </div>
 
@@ -69,8 +73,12 @@
 
         {% include skills.html %}
 
+        {% include languages.html %}
+
+        <div class ="pagebreak"></div>
         {% include experiences.html %}
 
+        <div class ="pagebreak"></div>
         {% include education.html %}
 
         {% include projects.html %}

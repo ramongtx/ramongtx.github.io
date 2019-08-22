@@ -1,0 +1,17 @@
+<h2 {% if site.style == 'dark' %}class="text-white" {% endif %}>// Languages</h2>
+<div class="d-flex flex-wrap mb-4">
+    {% for lang in site.data.resume.languages %}
+    <div class="col-md-4 col-12">
+        <span class="ml-4 mr-2">
+            {% if lang.level == 'native' %}
+            ★★★★★
+            {% elsif lang.level == 'advanced' %}
+            ★★★★☆
+            {% elsif lang.level == 'intermediate' %}
+            ★★★☆☆
+            {% endif %}
+        </span>
+         {{ lang.language }}
+    </div>
+    {% endfor %}
+</div>
