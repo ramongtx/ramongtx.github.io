@@ -1,4 +1,8 @@
 {
+  "ideals": {
+    "project": "Innovative in terms of technological stack, dynamic in terms of team interaction and with interesting business challenges",
+    "culture": "Professionalism, enthusiasm and teamwork"
+  },
   "name": "Ramon Maciel",
   "meta": {
     "format": "FRESH@0.6.0",
@@ -34,6 +38,12 @@
       "network": "Linkedin",
       "user": "Ramon",
       "url": "https://www.linkedin.com/pub/ramon-carvalho-maciel/7a/bb8/b3a"
+    },
+    {
+      "label": "",
+      "network": "Skype",
+      "user": "ramoncmaciel",
+      "url": ""
     }
   ],
   "employment": {
@@ -134,7 +144,7 @@
       "media": [],
       "role": "Web Developer",
       "summary": "Social Login for IBM Products",
-      "description": "A set of plugins and APIs to allow easy communication between Social-ID social platform and IBM cloud solutions. Development in Java and Ruby",
+      "description": "An Elasticsearch+Rails event-based engine for easy segmentation of millions of customers in real-time together with a set of plugins and APIs to allow easy communication between Social-ID social platform and IBM cloud solutions. Development in Java and Ruby",
       "highlights": [
         "Responsible for software architecture and development with direct aid from senior IBM engineers",
         "Awarded with an opportunity to present solution at IBM Amplify 2017"
