@@ -11,21 +11,35 @@
 </p>
 
 {% if include.metadata %}
-  <div class="f4 mb-6">
+  <div class="f4 mb-2">
     {% if user.name %}
-      <div class="{{ metadata_styles }}">
+      <div class="{{ metadata_styles }} no-print">
         {% octicon mark-github height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:GitHub %}
         <a href="https://github.com/{{ user.login }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
-          GitHub
+          GitHub @{{ user.login }}
         </a>
       </div>
     {% endif %}
-    {% if user.email %}
+    {% if site.data.resume.contact.email %}
       <div class="{{ metadata_styles }}">
-        {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:email %}
-        <a href="mailto:{{ user.email }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
-          {{ user.email }}
+        {% octicon mail height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:E-mail %}
+        <a href="mailto:{{ site.data.resume.contact.email }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+          {{ site.data.resume.contact.email }}
         </a>
+      </div>
+    {% endif %}
+    {% if site.data.resume.contact.website %}
+      <div class="{{ metadata_styles }}">
+        {% octicon link height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Website %}
+        <a href="mailto:{{ site.data.resume.contact.website }}" {% if site.style == 'dark' %}class="text-white"{% endif %}>
+          {{ site.data.resume.contact.website }}
+        </a>
+      </div>
+    {% endif %}
+    {% if site.data.resume.contact.phone %}
+      <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% endif %}">
+        {% octicon device-mobile height:20 class:"mr-2 v-align-middle" fill:{{ icon_color }} aria-label:Phone %}
+        {{ site.data.resume.contact.phone }}
       </div>
     {% endif %}
     {% if user.location %}
@@ -36,12 +50,12 @@
     {% endif %}
     {% if site.social_media %}
       {% for account in site.social_media %}
-        <div class="{{ metadata_styles }} {% if site.style == 'dark' %}text-white{% else %}text-black{% endif %}">
+        <div class="{{ metadata_styles }} no-print {% if site.style == 'dark' %}text-white{% else %}text-black{% endif %}">
           {% assign service_shortname = account[0] %}
           {% assign service = site.data.social_media[service_shortname] %}
           {{ service.icon_svg }}
           <a href="{{ service.profile_url_prefix }}{{ account[1] }}" {% if site.style == 'dark' %}class="text-white"{% endif %}">
-            {{ service.name }}
+            {{ service.name }} @{{ account[1] }}
           </a>
         </div>
       {% endfor %}

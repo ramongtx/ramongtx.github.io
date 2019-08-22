@@ -1,5 +1,5 @@
-<h2 {% if site.style == 'dark' %}class="text-white"{% endif %}>// GitHub Projects</h2>
-<div class="d-sm-flex flex-wrap gutter-condensed mb-4">
+<h2 {% if site.style == 'dark' %}class="text-white no-print"{% else %}class="no-print"{% endif %}>// GitHub Projects</h2>
+<div class="d-sm-flex flex-wrap gutter-condensed mb-4 no-print">
   {% if site.projects.sort_by == 'stars' %}
     {% assign sort_order = 'stargazers_count', 'last' %}
   {% else %}

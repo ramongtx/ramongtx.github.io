@@ -28,7 +28,7 @@
     {% include education.html %}
   </div>
 
-  <div class="my-6">
+  <div class="my-6" no-print>
     {% include projects.html %}
   </div>
 
@@ -47,7 +47,7 @@
 {% else %}
 <div class="d-md-flex min-height-full {% unless site.style == 'dark' %}border-md-bottom{% endunless %}">
   <div
-    class="flex-self-stretch {% if site.style == 'dark' %}bg-gray-dark{% else %}border-md-right bg-white{% endif %} col-md-5 col-lg-4 col-xl-3 px-4 px-md-6 px-lg-7 py-6">
+    class="flex-self-stretch {% if site.style == 'dark' %}bg-gray-dark{% else %}border-md-right bg-white{% endif %} col-md-5 col-lg-4 col-xl-3 px-4 px-md-6 px-lg-7 py-2 text-center">
     {% include masthead.html metadata=true %}
   </div>
 
