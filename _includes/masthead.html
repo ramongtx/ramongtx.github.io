@@ -54,9 +54,15 @@
           {% assign service_shortname = account[0] %}
           {% assign service = site.data.social_media[service_shortname] %}
           {{ service.icon_svg }}
-          <a href="{{ service.profile_url_prefix }}{{ account[1] }}" {% if site.style == 'dark' %}class="text-white"{% endif %}">
-            {{ service.name }} @{{ account[1] }}
-          </a>
+          {% if service.profile_url_prefix %}
+            <a href="{{ service.profile_url_prefix }}{{ account[1] }}" {% if site.style == 'dark' %}class="text-white"{% endif %}">
+              {{ service.name }} @{{ account[1] }}
+            </a>
+          {% else %}
+            <span {% if site.style == 'dark' %}class="text-white"{% endif %}">
+              {{ service.name }} @{{ account[1] }}
+            </span>
+          {% endif %}
         </div>
       {% endfor %}
     {% endif %}
