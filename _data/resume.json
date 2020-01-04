@@ -15,16 +15,16 @@
   },
   "contact": {
     "website": "https://cmaciel.com",
-    "phone": "+55 71 99919 9330",
+    "phone": "+33 07 83 00 28 04",
     "email": "ramoncmaciel@gmail.com",
     "other": []
   },
   "location": {
-    "address": "",
-    "city": "Campinas",
-    "region": "São Paulo",
-    "code": "",
-    "country": "BR"
+    "address": "Fresnes",
+    "city": "Paris",
+    "region": "Île-de-France",
+    "code": "94260",
+    "country": "FR"
   },
   "social": [
     {
@@ -50,12 +50,29 @@
     "summary": "",
     "history": [
       {
+        "employer": "IDM Group",
+        "url": "https://www.idmgroup.com/",
+        "position": "Software Engineer",
+        "summary": "Development of web applications in Java + pure JavaScript for programmatic advertising and content management.",
+        "start": "2019-10",
+        "keywords": ["Java", "Spring", "JavaScript", "XSLT", "Full-Stack"],
+        "highlights": []
+      },
+      {
         "employer": "I.Systems",
         "url": "http://www.i.systems.com.br/en/",
         "position": "Tech Lead",
         "summary": "Technical leadership of systems for advanced process control and business intelligence for industries, involving both desktop and cloud applications. Development in Go and TypeScript and deployment in AWS",
         "start": "2018-07",
-        "keywords": ["Go", "TypeScript", "ReactJS", "Angular", "Full-Stack", "AWS"],
+        "end": "2019-08",
+        "keywords": [
+          "Go",
+          "TypeScript",
+          "ReactJS",
+          "Angular",
+          "Full-Stack",
+          "AWS"
+        ],
         "highlights": [
           "Developing an industry-focused business intelligence software from conception to delivery, using Go, React, AngularJS, InfluxDB, PostgreSQL and GRPC",
           "Responsible for the introduction of DevOps culture and tools to the web development team, setting up the AWS environment, CircleCI and Heroku",
@@ -83,7 +100,13 @@
         "summary": "Engaged on developing REST APIs, business intelligence tools, Social Marketing engines and iOS applications for the Social-ID Marketing Platform. Coding mostly in Ruby (Rails), JavaScript (AngularJS) and Objective-C (iOS) using ElasticSearch and PostgreSQL",
         "start": "2015-07",
         "end": "2017-07",
-        "keywords": ["Ruby on Rails", "Swift", "Objective-C", "JavaScript", "AWS"],
+        "keywords": [
+          "Ruby on Rails",
+          "Swift",
+          "Objective-C",
+          "JavaScript",
+          "AWS"
+        ],
         "highlights": [
           "Responsible for maintaining a large iOS SDK and several apps, both in Swift and Objective-C",
           "Occasionally worked as Sales Engineer, being responsible for a successful partnership with IBM",
@@ -164,7 +187,16 @@
         "start": "2009-01",
         "end": "2015-01",
         "summary": "Graduate of University of Campinas, with participation in exchange programs in France (ENSIIE) and in Australia (ANU)",
-        "curriculum": ["Data Algorithms", "Optimization", "Software Engineering", "C", "C++", "Compilers", "HTTP", "TCP/IP"]
+        "curriculum": [
+          "Data Algorithms",
+          "Optimization",
+          "Software Engineering",
+          "C",
+          "C++",
+          "Compilers",
+          "HTTP",
+          "TCP/IP"
+        ]
       },
       {
         "institution": "Apple and Instituto Eldorado",
@@ -182,7 +214,12 @@
         "start": "2011-06",
         "end": "2012-06",
         "summary": "12 months as a Masters student at ENSIIE with full scholarship. Studies focused in the fields of artificial intelligence and virtual reality",
-        "curriculum": ["Virtual Reality", "Artificial Intelligence", "Machine Learning", "Middleware"]
+        "curriculum": [
+          "Virtual Reality",
+          "Artificial Intelligence",
+          "Machine Learning",
+          "Middleware"
+        ]
       },
       {
         "institution": "ANU - Australian National University",
@@ -191,7 +228,12 @@
         "start": "2012-06",
         "end": "2013-06",
         "summary": "12 months as a Masters student at ANU with full scholarship. Studies focused on project management and software engineering",
-        "curriculum": ["Projecty Management", "Optimization", "Software Engineering", "Java"]
+        "curriculum": [
+          "Projecty Management",
+          "Optimization",
+          "Software Engineering",
+          "Java"
+        ]
       }
     ]
   },
