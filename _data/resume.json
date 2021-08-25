@@ -50,11 +50,20 @@
     "summary": "",
     "history": [
       {
+        "employer": "Qonto",
+        "url": "https://www.qonto.com/",
+        "position": "Software Engineer",
+        "summary": "Design, development and maintenance of banking APIs written in Ruby and Go with an active role in the architecture, with a focus on resilience, scalability, robustness and security.",
+        "start": "2021-04",
+        "keywords": ["Ruby on Rails", "Lean", "Go", "Kafka", "AWS"]
+      },
+      {
         "employer": "IDM Group",
         "url": "https://www.idmgroup.com/",
         "position": "Software Engineer",
         "summary": "Development of web applications in PHP, Python and TypeScript for programmatic advertising and content management. Work focused on software architecture, data delivery and 3rd-party integrations.",
         "start": "2019-10",
+        "end": "2021-04",
         "keywords": ["TypeScript", "PHP", "Spring", "XSLT", "Full-Stack", "Solr", "Python"],
         "highlights": [
           "Leaded technology stack transition project from Java to PHP and TypeScript",
