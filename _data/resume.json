@@ -50,11 +50,20 @@
     "summary": "",
     "history": [
       {
+        "employer": "AWS - Amazon Web Services",
+        "url": "https://aws.amazon.com",
+        "position": "Software Development Engineer",
+        "summary": "Leadership, design and development in multiple cross-team projects involving maintaining massive distributed time-series databases.",
+        "start": "2022-05",
+        "keywords": ["Kotlin", "AWS", "TypeScript", "Ruby", "Project Management", "Scrum Master"]
+      },
+      {
         "employer": "Qonto",
         "url": "https://www.qonto.com/",
-        "position": "Software Engineer",
+        "position": "Senior Backend Engineer",
         "summary": "Design, development and maintenance of banking APIs written in Ruby and Go with an active role in the architecture, with a focus on resilience, scalability, robustness and security.",
         "start": "2021-04",
+        "end": "2022-05",
         "keywords": ["Ruby on Rails", "Lean", "Go", "Kafka", "AWS"]
       },
       {
